@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, SQL avançado, PySpark, Power BI/DAX, Microsoft Fabric, Databricks, arquitetura Medallion/Lakehouse, ETL/ELT, CDC, Data Governance
+**Moderate match areas:** Azure Data Factory, OneLake, AWS (Data Lakes - fundamentos), agentes de IA (Copilot/MCP), Data Warehouse
+**Weak match areas:** GCP/BigQuery/Dataform (em estudo, ainda não aplicado profissionalmente), engenharia de dados em stacks fora do ecossistema Microsoft (ex: Spark standalone/Airflow/dbt fora de contexto Fabric)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Analista de Dados / BI (Power BI, DAX, dashboards executivos, KPIs), arquitetura de dados em Microsoft Fabric/Databricks
+**Moderate:** Engenharia de Dados (pipelines, ETL/ELT, CDC construídos na prática dentro de um papel de Analista, sem título formal de "Data/Analytics Engineer" ainda)
+**Entry-level:** Cientista de Dados / ML (cursando MBA em Data Science e IA, sem experiência profissional aplicada em modelagem preditiva avançada ainda)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,11 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- 100% remoto, em qualquer lugar do Brasil: PASS
+- Híbrido na capital de São Paulo: PASS
+- Híbrido ou presencial fora da capital de São Paulo: FAIL (deal-breaker)
+- Presencial integral (mesmo em SP capital): FLAG (discutir com a candidata - preferência não confirmada)
+- Requer mudança de cidade/estado: FAIL (deal-breaker)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +64,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Consolidar-se como Analista de Dados Sênior/Pleno ou migrar para Engenharia de Dados Pleno
+- Aprofundar em arquitetura de dados e modelagem em escala
+- Aplicar o MBA em Data Science, IA e Analytics (USP/ESALQ, em andamento) profissionalmente
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: mais arquitetura de dados, dados em escala (Big Data / alto volume), modelagem em Power BI
+- Tasks that drain: não informado ainda - perguntar se relevante para uma vaga específica
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: atualmente empregada (Química Anastacio) - busca é por evolução de carreira, não urgência financeira
+- **Flexibility**: aberta a remoto em todo o Brasil ou híbrido na capital de São Paulo; não considera presencial fora de SP capital
+- **Professional development**: MBA em Data Science, IA e Analytics em andamento (USP/ESALQ, 2026-2027); estudo autônomo contínuo em GCP/BigQuery/Dataform
 
 ### 6. Salary Benchmark (Optional)
 

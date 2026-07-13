@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Amanda de Souza Almeida
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Amanda de Souza Almeida - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Amanda}{de Souza Almeida}
+\address{Butantã, São Paulo, Brasil}{}{}
+\phone[mobile]{+55 11 98350-1442}
+\email{amandasouza7a2@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/amanda-dados/}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Profissional de dados atuando entre Analytics, BI e Engenharia de Dados (Analista de Dados / Analytics Engineer / Data Engineer), com forte base em Python, SQL e Power BI (DAX). Trajetória progressiva: da automação de processos operacionais à implantação do primeiro Data Lake de uma companhia em 3 meses, com arquitetura Lakehouse/Medallion, ETL/ELT e CDC em Microsoft Fabric e Databricks, processando +5 milhões de registros/dia. Impacto financeiro comprovado: economia recorrente superior a R\$200 mil/mês. MBA em Data Science, IA e Analytics (USP/ESALQ) em andamento.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Big Data \& Arquitetura de Dados}: PySpark, Databricks, Data Lakehouse, arquitetura Medallion (Bronze, Silver, Gold), ingestão incremental (CDC)
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{BI \& Analytics}: Power BI, DAX, Power Query, dashboards executivos, KPIs, Row-Level Security (RLS)
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Engenharia de Dados \& Cloud}: Microsoft Fabric, Azure Data Factory, OneLake, ETL/ELT, Data Warehouse
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Linguagens \& Automação}: Python, SQL avançado, VBA
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{IA Aplicada a Dados}: Agentes de IA com Microsoft Copilot, arquitetura MCP (Model Context Protocol) para consulta de dados e automação de processos
 
 \end{itemize}
 
@@ -77,31 +77,53 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2025--Presente}{Analista de Dados Pleno}{Química Anastacio}{São Paulo, Brasil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Implantou Data Lakehouse e arquitetura Medallion (Bronze, Silver, Gold) em Microsoft Fabric e Databricks - primeiro Data Lake da companhia, em 3 meses
+    \item Desenvolveu Data Pipelines, ETL/ELT e CDC com SQL, Python, PySpark e Azure Data Factory, processando +5 milhões de registros/dia
+    \item Modelou camada semântica e desenvolveu 50+ entidades analíticas, 30+ KPIs e 10+ dashboards executivos em Power BI (DAX), reduzindo em 80\% o tempo de análise para 50+ usuários
+    \item Estruturou Data Governance, Data Catalog e versionamento via GitHub
+    \item Desenvolveu agentes de IA com Microsoft Copilot e arquitetura MCP para consulta de dados e automação de processos
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--10/2025}{Analista de Inteligência Logística Sênior}{Química Anastacio}{São Paulo, Brasil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Gerou economia recorrente superior a R\$200 mil/mês por meio de análises operacionais e financeiras (Brasil e LATAM)
+    \item Extraiu e tratou dados do ERP Protheus com SQL e Python, direcionando capacity planning e balanceamento de carga
+    \item Estruturou dashboards e KPIs em Power BI (DAX) com visibilidade ponta a ponta
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{07/2024--02/2025}{Analista de Logística Sênior}{Camil Alimentos}{São Paulo, Brasil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Liderou reengenharia de processo ponta a ponta: ciclo operacional de 30 para 15 dias, +R\$100 mil/mês em savings de frete e 20\% de redução no custo unitário de uma operação anual de R\$5 milhões
+    \item Integrou TOTVS, Jira Cloud, TMS e Lincros; apresentou indicadores para liderança e diretoria
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{06/2023--07/2024}{Analista de Logística Pleno}{Camil Alimentos}{Osasco, São Paulo, Brasil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Automatizou processos operacionais e relatórios com Power BI, SQL e Python
+    \item Implantou o Farol de Performance para monitoramento de metas em tempo real
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{08/2021--06/2023}{Analista de Logística Júnior}{Camil Alimentos}{São Paulo, Brasil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Otimizou a gestão de paletes logísticos, reduzindo perdas em 40\% e o custo por unidade de R\$50 para R\$17
+    \item Automatizou tarefas manuais com VBA e SQL, eliminando erros operacionais
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +136,19 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{2026--2027 (em andamento)}{MBA em Data Science, Inteligência Artificial e Analytics}{Universidade de São Paulo (USP/ESALQ)}{Brasil}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2024--2025}{MBA em Gestão de Negócios}{Universidade São Judas Tadeu}{São Paulo, Brasil}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{2020--2021}{MBA em Engenharia de Produção}{Universidade Paulista (UNIP)}{Brasil}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{2015--2017}{Tecnólogo em Logística}{Faculdade Sumaré}{São Paulo, Brasil}{}{}}
 
 \end{itemize}
 
@@ -133,27 +159,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Português (nativo), Inglês (intermediário - B1), Espanhol (intermediário - B1).
 \end{itemize}
 
 % ============================================================
@@ -163,7 +169,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{References}
 \vspace{1pt}
 \begin{itemize}
-\item{Available upon request.}
+\item{Disponíveis mediante solicitação.}
 \end{itemize}
 
 \end{document}

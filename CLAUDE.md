@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Amanda de Souza Almeida
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Amanda, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,89 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Amanda de Souza Almeida
+- **Location:** Butantã, São Paulo/SP, Brasil (aberta a remoto em todo o Brasil ou híbrido na capital de São Paulo)
+- **Languages:** Português (nativo), Inglês (B1 - intermediário), Espanhol (B1 - intermediário)
+- **Status:** Empregada (Química Anastacio, Analista de Dados Pleno)
+- **LinkedIn headline:** "Analista de Dados | Analytics Engineer | Data Engineer | SQL · Python · PySpark · Azure · Microsoft Fabric · Databricks · Power BI | ETL/ELT · Data Lakehouse · CDC"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MBA em Data Science, Inteligência Artificial e Analytics** (mai/2026 - nov/2027, em andamento) - Universidade de São Paulo (USP/ESALQ)
+- **MBA em Gestão de Negócios** (jun/2024 - jul/2025) - Universidade São Judas Tadeu
+- **MBA em Engenharia de Produção** (mar/2020 - mar/2021) - Universidade Paulista (UNIP)
+- **Tecnólogo em Logística** (2015-2017) - Faculdade Sumaré
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Analista de Dados Pleno** (10/2025 - Atual) - **Química Anastacio**
+  - Conduziu discovery, mapeamento As Is / To Be e levantamento de requisitos com stakeholders
+  - Implantou Data Lakehouse, Data Warehouse e arquitetura Medallion (Bronze, Silver, Gold) em Microsoft Fabric e Databricks - primeiro Data Lake da companhia, em 3 meses
+  - Desenvolveu Data Pipelines, ETL/ELT e CDC com SQL, Python, PySpark, Azure Data Factory e Databricks, processando +5 milhões de registros/dia
+  - Modelou dados, camada semântica e consumo analítico via SQL para múltiplas áreas
+  - Desenvolveu dashboards executivos, KPIs, métricas e indicadores em Power BI (DAX) - 50+ entidades analíticas, 30+ KPIs e 10+ dashboards, reduzindo em 80% o tempo de análise para 50+ usuários
+  - Estruturou Data Governance, Data Catalog e versionamento via GitHub
+  - Desenvolveu agentes de IA com Microsoft Copilot e arquitetura MCP (Model Context Protocol) para consulta de dados e automação de processos
+
+- **Analista de Inteligência Logística Sênior** (02/2025 - 10/2025) - **Química Anastacio**
+  - Gerou mais de R$200 mil/mês em savings recorrentes por meio de análises operacionais e financeiras
+  - Desenvolveu análises com SQL e Python para produtividade, custos, capacidade operacional e reabastecimento de CDs (estoque, cobertura, previsão de vendas)
+  - Estruturou dashboards, KPIs e métricas em Power BI (DAX), incluindo indicadores para operações LATAM (México e Argentina)
+  - Apoiou capacity planning, alocação de recursos e otimização operacional
+
+- **Analista de Logística Sênior** (07/2024 - 02/2025) - **Camil Alimentos**
+  - Reduziu o ciclo operacional de 30 para 15 dias e gerou +R$100 mil/mês em savings de frete
+  - Reduziu em 20% o custo unitário de uma operação anual de R$5 milhões
+  - Implantou plataforma de devoluções no Jira Cloud; estruturou workflows integrando mais de 20 áreas
+  - Desenvolveu modelo analítico de rastreabilidade e controle de custos, integrando TOTVS, Jira Cloud, TMS e Lincros
+  - Apresentou indicadores de custos, transporte e performance para liderança e diretoria
+
+- **Analista de Logística Pleno** (06/2023 - 07/2024) - **Camil Alimentos**
+  - Desenvolveu automações em SQL e Python e implantou o "Farol de Performance" para monitoramento de metas em tempo real
+
+- **Analista de Logística Júnior** (08/2021 - 06/2023) - **Camil Alimentos**
+  - Otimizou a gestão de paletes logísticos, reduzindo perdas em 40% e reaproveitando 60% das unidades, baixando o custo por unidade de R$50 para R$17
+  - Suportou processos de roteirização e inventários; automatizou tarefas manuais com VBA e SQL
+
+- **Assistente de Logística** (11/2020 - 07/2021) - **Camil Alimentos**
+  - Promovida a Analista de Logística Júnior
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL avançado, PySpark, Power BI/DAX, Microsoft Fabric, Databricks, arquitetura Medallion/Lakehouse, Data Pipelines, ETL/ELT, CDC
+- **Secondary:** Azure Data Factory, OneLake, AWS (Data Lakes - fundamentos), GCP/BigQuery/Dataform (em estudo), VBA
+- **Domain:** Big Data, Data Governance, Data Catalog, Data Modeling, capacity planning, análise financeira e de custos
+- **IA aplicada a dados:** Agentes de IA com Microsoft Copilot, arquitetura MCP (Model Context Protocol) para consulta de dados e automação de processos
+- **Software:** GitHub, Power Query, Power Apps, Power Automate, Jira Cloud, TOTVS, Protheus, TMS, Lincros
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Datalakes na AWS** - Udemy, 2024
+- **Python para Dados** - Udemy, 2024
+- **SQL para Análise e Modelagem de Dados** - Udemy, 2025
+- **SQL** - Faculdade Impacta, 2025
+- **Power BI** - Dados Criativos - Estratégia e Inteligência, 2024
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+Nenhuma.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+Nenhum.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+Sem avaliação formal (PI/DISC/etc). *[Inferido do Resumo do LinkedIn - revisar antes de usar com confiança]*: trajetória de crescimento progressivo e autodirigido (de automação operacional com SQL para BI/Analytics e hoje Engenharia de Dados End-to-End); aprendizado contínuo por conta própria (GCP, BigQuery, Dataform em estudo); confortável atuando como ponte entre times técnicos e liderança/diretoria; aberta a networking e conversas sobre a área.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Mais arquitetura de dados
+- Dados em escala (Big Data / alto volume)
+- Modelagem em Power BI
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+Sem setor específico definido ainda - foco atual é em tipo de função (ver Target Roles), não em setor.
+
+### Target Roles
+- Analista de Dados Sênior / Pleno
+- Engenheira de Dados Pleno
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+Não informado.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

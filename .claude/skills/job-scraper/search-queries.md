@@ -1,69 +1,65 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+## Search Tools
 
-## Search Sites
+The Danish CLI tools shipped in this repo (Jobindex, Jobbank, Jobdanmark, Jobnet) do not
+apply to Amanda's market (Brazil) and are not used. Active tools:
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY])
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **linkedin-search** - `.agents/skills/linkedin-search/` - global, `--location` free text, `--remote remote|hybrid|onsite`
+- **freehire-search** - `.agents/skills/freehire-search/` - tech-focused aggregator, geography via `--region`/`--country` facets (`--country BR`, `--region latam`)
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Optional future addition: run `/add-portal` for a Brazil-specific board (Gupy, InfoJobs, Catho, Indeed Brasil) if LinkedIn + freehire coverage proves thin.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+### Priority 1: Analista de Dados (Sênior/Pleno)
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+Primary target role - direct continuation of current title.
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+```bash
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Analista de Dados" -l "São Paulo, Brazil" --remote hybrid --jobage 14 --format table
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Analista de Dados" -l "Brazil" --remote remote --jobage 14 --format table
+bun run .agents/skills/freehire-search/cli/src/cli.ts search -q "data analyst" --country BR --jobage 14 --format table
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Engenharia de Dados (Pleno)
 
-These match your domain expertise.
+Equally primary target - the direction her current role has been growing into (pipelines, CDC, Lakehouse architecture).
 
-```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
-```
-
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+```bash
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Engenheiro de Dados" -l "São Paulo, Brazil" --remote hybrid --jobage 14 --format table
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Data Engineer" -l "Brazil" --remote remote --jobage 14 --format table
+bun run .agents/skills/freehire-search/cli/src/cli.ts search -q "data engineer" --country BR --seniority middle --jobage 14 --format table
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 3: Analytics Engineer / BI Analyst (adjacent)
 
-Wider net for general technical roles.
+Roles she could pivot into directly given her Power BI/DAX + pipeline background; her LinkedIn headline already claims this range.
 
+```bash
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Analytics Engineer" -l "Brazil" --remote remote --jobage 14 --format table
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "BI Analyst Power BI" -l "São Paulo, Brazil" --remote hybrid --jobage 14 --format table
+bun run .agents/skills/freehire-search/cli/src/cli.ts search --skill python,sql,power-bi --country BR --jobage 14 --format table
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+
+### Priority 4: Broader / LATAM remote net
+
+Wider net when Priority 1-3 results are thin.
+
+```bash
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Data Lakehouse Databricks Fabric" -l "Remote" --jobage 14 --format table
+bun run .agents/skills/freehire-search/cli/src/cli.ts search -q "data" --region latam --remote remote --jobage 14 --format table
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Amanda is not open to presencial-only roles outside São Paulo capital, and not open to relocation.
+
+- **São Paulo (capital)** - hybrid: PASS
+- **Remote, based anywhere in Brazil** - PASS
+- **Presencial or hybrid outside São Paulo capital** - FAIL (deal-breaker)
+- **Requires relocation** - FAIL (deal-breaker)
+- Remote roles based outside Brazil but open to Brazil-based remote hires - borderline, flag for discussion (time zone / contract-type check needed)
 
 ## Date Filter
 

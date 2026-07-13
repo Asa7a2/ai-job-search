@@ -12,26 +12,33 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Primeiro Data Lake da companhia (Arquitetura de dados end-to-end)
+**S:** Ao entrar como Analista de Dados Pleno na Química Anastacio (10/2025), a empresa não tinha ambiente analítico estruturado nem Data Lake.
+**T:** Estruturar, sozinha, a arquitetura de dados da companhia do zero: ingestão, modelagem e entrega.
+**A:** Estruturou Lakehouse e arquitetura Medallion (Bronze, Silver, Gold) em Microsoft Fabric e Databricks, com ETL/ELT em Python e PySpark, e ingestão incremental via CDC integrada ao ERP.
+**R:** Primeiro Data Lake da companhia implantado em 3 meses, processando +5 milhões de registros/dia; base para 50+ entidades analíticas, 30+ KPIs e 10+ dashboards.
+**Use for:** "Conte sobre um projeto que você liderou do zero", "Como você estrutura um ambiente de dados novo?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Agentes de IA com Copilot e arquitetura MCP (Iniciativa e inovação)
+**S:** Além da entrega padrão de dashboards e pipelines, identificou oportunidade de aplicar IA para consulta de dados e automação de processos.
+**T:** Explorar e implementar agentes de IA sem que isso fosse uma exigência formal do cargo.
+**A:** Desenvolveu agentes de IA com Microsoft Copilot e arquitetura MCP (Model Context Protocol) integrados ao ambiente de dados da empresa.
+**R:** Processos de consulta de dados e automação passaram a contar com suporte de IA, ampliando o escopo técnico da função além do que era pedido.
+**Use for:** "Conte sobre uma vez que você foi além do esperado", "Como você se mantém atualizada com novas tecnologias?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Economia de R$200 mil/mês em análises operacionais e financeiras (Impacto analítico/financeiro)
+**S:** Como Analista de Inteligência Logística Sênior na Química Anastacio, precisava identificar ineficiências na alocação de recursos entre operações e finanças, incluindo LATAM (México e Argentina).
+**T:** Conduzir análises que traduzissem dados operacionais e financeiros em decisões de economia real.
+**A:** Extraiu e tratou dados do ERP Protheus com SQL e Python, direcionando capacity planning e balanceamento de carga; estruturou dashboards e KPIs em Power BI (DAX) para visibilidade ponta a ponta.
+**R:** Economia recorrente de mais de R$200 mil/mês, com atuação consultiva direta com stakeholders no Brasil e LATAM.
+**Use for:** "Dê um exemplo de impacto financeiro que você gerou", "Como você trabalha com stakeholders internacionais?"
+
+### 4. Reengenharia de processo ponta a ponta em frete (Liderança de processo)
+**S:** Na Camil Alimentos, como Analista de Logística Sênior, o ciclo operacional de frete levava 30 dias e havia oportunidade de redução de custo.
+**T:** Liderar a reengenharia do processo ponta a ponta, integrando múltiplas áreas.
+**A:** Conduziu discovery e mapeamento As Is / To Be, definiu KPIs, implantou plataforma de devoluções no Jira Cloud e integrou TOTVS, TMS e Lincros, estruturando workflows com mais de 20 áreas envolvidas.
+**R:** Ciclo operacional reduzido de 30 para 15 dias, +R$100 mil/mês em savings de frete e 20% de redução no custo unitário de uma operação anual de R$5 milhões.
+**Use for:** "Conte sobre uma vez que você liderou uma mudança de processo", "Como você trabalha com múltiplas áreas/stakeholders?"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

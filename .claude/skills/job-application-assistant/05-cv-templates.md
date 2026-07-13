@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Analista de Dados Sênior/Pleno roles:**
+> Analista de Dados com forte base em Python, SQL e Power BI (DAX), atuando da modelagem e ETL/ELT à entrega de dashboards para decisão estratégica. Experiência sólida em Big Data com PySpark, Databricks e arquitetura Lakehouse/Medallion, processando +5 milhões de registros/dia. Impacto financeiro comprovado: economia recorrente superior a R$200 mil/mês e até 80% de redução no tempo de análise. Experiência em nuvem com Microsoft Fabric, Azure e Databricks, com MBA em Data Science, IA e Analytics (USP/ESALQ) em andamento.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Engenharia de Dados Pleno roles:**
+> Profissional de dados com trajetória progressiva de automação e BI para Engenharia de Dados End-to-End: Data Lakehouse, Data Warehouse, ETL/ELT, CDC e arquitetura Medallion em Microsoft Fabric e Databricks, processando +5 milhões de registros/dia. Implantou o primeiro Data Lake de uma companhia em 3 meses, com pipelines em Python/PySpark, Azure Data Factory e governança de dados via GitHub. Experiência adicional com agentes de IA (Microsoft Copilot, arquitetura MCP) para automação de processos, e base quantitativa em Engenharia de Produção.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
