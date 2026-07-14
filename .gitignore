@@ -64,6 +64,14 @@ documents/applications/**
 # Personal job search tracking
 job_search_tracker.csv
 
+# Email credentials (Gmail App Password) - never commit
+job_scraper/email_credentials.ps1
+
+# Run artifacts (personal, regenerated each run)
+job_scraper/ultimo_resumo.txt
+job_scraper/*.tmp
+job_scraper/*.err
+
 # Upskill reports (personal output)
 upskill/*.md
 
