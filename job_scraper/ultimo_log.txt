@@ -1,12 +1,31 @@
-Started: 14/07/2026 17:29:52,69 
-Both temp scripts cleaned up. Run complete.
+﻿Started: 07/15/2026 12:00:54
+All 4 categories complete. Final summary:
 
-**DONE! Found 18 good match(es) out of 230 analyzed today.**
+**DONE! Found 7 good match(es) out of 37 postings analyzed** (across Data Analyst, Data Engineer, BI Analyst, and Data Modeling categories, both hybrid São Paulo and remote Brazil).
 
-Summary:
-- Searched all 4 categories (Data Analyst, Data Engineer, BI Analyst, Data Modeling Analyst) × hybrid São Paulo + remote Brazil, across LinkedIn, Gupy, and freehire.
-- Found this run had actually already been executed earlier today but got interrupted mid-way — `seen_jobs.json` had ~150 postings processed but `ultimo_resumo.txt` was missing 3 qualifying matches (TDW Bi Consulting 79%, Caju 76%, Porto Cobrança 68%).
-- Ran a fresh incremental search, found 40 new postings (9 scored, 31 filtered out for junior/estágio/location/English), merged them in.
-- Rebuilt `job_scraper/ultimo_resumo.txt` with all 18 postings scoring ≥65% today, sorted highest first — top ones: CI&T AI Data Engineer (80%), B3 Engenheiro de Dados Pleno (79%), TDW Bi Consulting Jr/Pl (79%).
-- Email: Gmail MCP tool (`create_draft`) was available and worked — created a draft titled "Vagas encontradas - 14/07 17:29" with the full list, ready to send from Amanda's Gmail.
-- Also noticed Amanda made a commit at 17:35 switching the scheduled automation to a PowerShell+SMTP approach (separate from this Claude run) — no action needed there, that's her infrastructure change, and `seen_jobs.json`/`ultimo_resumo.txt` are correctly gitignored as run artifacts.
+Top matches saved to `job_scraper/ultimo_resumo.txt` (65%+ threshold):
+1. **81%** — Grupo SysMap — Engenheiro de Dados Databricks SR (remote)
+2. **75%** — Target Software — Analista de MIS SR (hybrid SP)
+3. **73%** — TM Solutions — Engenheiro(a) de Dados (remote)
+4. **72.5%** — PagBank — Engenheiro de Dados Sr. (hybrid SP)
+5. **69.25%** — Jobgether — Data Engineer (remote, LATAM)
+6. **68.75%** — Stefanini — Engenheiro de Dados (remote)
+7. **66.25%** — Shopee — Analista Pleno de Data & Analytics | Logistics (hybrid SP)
+
+Notable exclusions applied: on-site-only roles (C6 Bank, Daycoval, Atento, Âmbar Energia, XP Inc's ambiguous "Presencial Flexível"), out-of-SP-capital cities (Barueri, Osasco, Cotia, Rio de Janeiro, Goiânia, Contagem), advanced-English requirements (Einstein Cientista de Dados, BairesDev), and junior-level roles outside the Data Engineer category. All 42 newly processed postings (approved and rejected) were saved to `job_scraper/seen_jobs.json` for future dedup.
+All 4 categories complete. Final summary:
+
+**DONE! Found 7 good match(es) out of 37 postings analyzed** (across Data Analyst, Data Engineer, BI Analyst, and Data Modeling categories, both hybrid São Paulo and remote Brazil).
+
+Top matches saved to `job_scraper/ultimo_resumo.txt` (65%+ threshold):
+1. **81%** — Grupo SysMap — Engenheiro de Dados Databricks SR (remote)
+2. **75%** — Target Software — Analista de MIS SR (hybrid SP)
+3. **73%** — TM Solutions — Engenheiro(a) de Dados (remote)
+4. **72.5%** — PagBank — Engenheiro de Dados Sr. (hybrid SP)
+5. **69.25%** — Jobgether — Data Engineer (remote, LATAM)
+6. **68.75%** — Stefanini — Engenheiro de Dados (remote)
+7. **66.25%** — Shopee — Analista Pleno de Data & Analytics | Logistics (hybrid SP)
+
+Notable exclusions applied: on-site-only roles (C6 Bank, Daycoval, Atento, Âmbar Energia, XP Inc's ambiguous "Presencial Flexível"), out-of-SP-capital cities (Barueri, Osasco, Cotia, Rio de Janeiro, Goiânia, Contagem), advanced-English requirements (Einstein Cientista de Dados, BairesDev), and junior-level roles outside the Data Engineer category. All 42 newly processed postings (approved and rejected) were saved to `job_scraper/seen_jobs.json` for future dedup.
+Finished: 07/15/2026 12:09:02
+Email sent to amandasouza7a2@gmail.com
