@@ -47,9 +47,21 @@ bun run .agents/skills/freehire-search/cli/src/cli.ts search --skill python,sql,
 bun run .agents/skills/gupy-search/cli/src/cli.ts search -q "Analista BI Power BI" -l "São Paulo" --workplaceType hybrid --jobage 14 --format table
 ```
 
-### Priority 4: Broader / LATAM remote net
+### Priority 4: Data Governance / Data Catalog (adjacent)
 
-Wider net when Priority 1-3 results are thin.
+She structured Data Governance and a Data Catalog at her current role - direct hands-on experience, not just adjacent skill.
+
+```bash
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Governanca de Dados" -l "São Paulo, Brazil" --remote hybrid --jobage 14 --format table
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Data Governance" -l "Brazil" --remote remote --jobage 14 --format table
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Data Catalog" -l "Brazil" --remote remote --jobage 14 --format table
+bun run .agents/skills/gupy-search/cli/src/cli.ts search -q "Governanca de Dados" -l "São Paulo" --workplaceType hybrid --jobage 14 --format table
+bun run .agents/skills/gupy-search/cli/src/cli.ts search -q "Data Catalog" --workplaceType remote --jobage 14 --format table
+```
+
+### Priority 5: Broader / LATAM remote net
+
+Wider net when Priority 1-4 results are thin.
 
 ```bash
 bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Data Lakehouse Databricks Fabric" -l "Remote" --jobage 14 --format table

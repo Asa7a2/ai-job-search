@@ -1,31 +1,23 @@
-﻿Started: 07/15/2026 12:00:54
-All 4 categories complete. Final summary:
+﻿Started: 07/29/2026 06:06:25
+All 6 categories complete.
 
-**DONE! Found 7 good match(es) out of 37 postings analyzed** (across Data Analyst, Data Engineer, BI Analyst, and Data Modeling categories, both hybrid São Paulo and remote Brazil).
+**DONE! Found 13 good match(es) out of the postings analyzed across all 6 categories.**
 
-Top matches saved to `job_scraper/ultimo_resumo.txt` (65%+ threshold):
-1. **81%** — Grupo SysMap — Engenheiro de Dados Databricks SR (remote)
-2. **75%** — Target Software — Analista de MIS SR (hybrid SP)
-3. **73%** — TM Solutions — Engenheiro(a) de Dados (remote)
-4. **72.5%** — PagBank — Engenheiro de Dados Sr. (hybrid SP)
-5. **69.25%** — Jobgether — Data Engineer (remote, LATAM)
-6. **68.75%** — Stefanini — Engenheiro de Dados (remote)
-7. **66.25%** — Shopee — Analista Pleno de Data & Analytics | Logistics (hybrid SP)
+Top matches (≥55%, saved to `job_scraper/ultimo_resumo.txt`):
+1. 83.5% – nommad – Especialista de Plataforma de Dados
+2. 82% – Ambush – Data Engineer
+3. 80% – Hays – Engenheiro de Dados - IA
+4. 79.25% – Unilever – Data Expert Analyst em Customer Operations
+5. 78.75% – Zeta Dados – Pessoa Engenheira de Dados Plena
+6. 75.75% – Avanade – Analista Data Engineer
+7. 70% – Encora (Coforge) – Analytics Engineer
+8. 69.25% – innolevels – Engenheiro de Dados Junior/Pleno
+9. 67.75% – Framework Digital – Analista de BI Pleno
+10. 67.5% – Selbetti Tecnologia – Consultor de BI Pleno
+11. 63.5% – Thomson Reuters – Data Analyst (Customer Success Onboarding)
+12. 62% – Asaas – Data Analyst Pleno Marketing
+13. 57.5% – abinbev – Intermediate Data Engineer
 
-Notable exclusions applied: on-site-only roles (C6 Bank, Daycoval, Atento, Âmbar Energia, XP Inc's ambiguous "Presencial Flexível"), out-of-SP-capital cities (Barueri, Osasco, Cotia, Rio de Janeiro, Goiânia, Contagem), advanced-English requirements (Einstein Cientista de Dados, BairesDev), and junior-level roles outside the Data Engineer category. All 42 newly processed postings (approved and rejected) were saved to `job_scraper/seen_jobs.json` for future dedup.
-All 4 categories complete. Final summary:
-
-**DONE! Found 7 good match(es) out of 37 postings analyzed** (across Data Analyst, Data Engineer, BI Analyst, and Data Modeling categories, both hybrid São Paulo and remote Brazil).
-
-Top matches saved to `job_scraper/ultimo_resumo.txt` (65%+ threshold):
-1. **81%** — Grupo SysMap — Engenheiro de Dados Databricks SR (remote)
-2. **75%** — Target Software — Analista de MIS SR (hybrid SP)
-3. **73%** — TM Solutions — Engenheiro(a) de Dados (remote)
-4. **72.5%** — PagBank — Engenheiro de Dados Sr. (hybrid SP)
-5. **69.25%** — Jobgether — Data Engineer (remote, LATAM)
-6. **68.75%** — Stefanini — Engenheiro de Dados (remote)
-7. **66.25%** — Shopee — Analista Pleno de Data & Analytics | Logistics (hybrid SP)
-
-Notable exclusions applied: on-site-only roles (C6 Bank, Daycoval, Atento, Âmbar Energia, XP Inc's ambiguous "Presencial Flexível"), out-of-SP-capital cities (Barueri, Osasco, Cotia, Rio de Janeiro, Goiânia, Contagem), advanced-English requirements (Einstein Cientista de Dados, BairesDev), and junior-level roles outside the Data Engineer category. All 42 newly processed postings (approved and rejected) were saved to `job_scraper/seen_jobs.json` for future dedup.
-Finished: 07/15/2026 12:09:02
+All processed postings (matches, rejections, and mandatory-filter exclusions) were persisted to `job_scraper/seen_jobs.json` (1916 total entries now). Email sending is handled separately outside this run, as instructed.
+Finished: 07/29/2026 06:18:52 (claude exit code: unknown)
 Email sent to amandasouza7a2@gmail.com
